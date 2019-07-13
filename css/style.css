@@ -540,7 +540,7 @@ box-shadow: 0px 15px 20px 0px rgba(255,48,127,0.15);
   position: absolute;
   right: -365px;
   top: -120px;
-  min-width: 842px;
+  min-width: 400px;
 }
 
 /* -------------------------------- 
@@ -2710,7 +2710,7 @@ Start Responsive style
     border:1px solid #32325d;
   }
   .banner_dashboard_right img{
-    min-width: 700px;
+    min-width: 200px;
   }
   .hero_banner {
     padding-top: 230px;
