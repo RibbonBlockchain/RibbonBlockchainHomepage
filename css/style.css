@@ -573,7 +573,8 @@ Start About Us style
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(https://via.placeholder.com/900x700);
+  background-color: white;
+  background-image: url(/img/graphics/aboutUs.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
