@@ -14,7 +14,44 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type: 'text/css', href: 'styles/bootstrap.min.css' },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'styles/material-kit.min.css'
+      },
+      { rel: 'stylesheet', type: 'text/css', href: 'styles/aos.css' },
+      { rel: 'stylesheet', type: 'text/css', href: 'styles/normalize.css' },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'styles/owl.carousel.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'styles/owl.theme.default.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'styles/magnific-popup.css'
+      },
+      { rel: 'stylesheet', type: 'text/css', href: 'styles/swiper.css' },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://use.fontawesome.com/releases/v5.0.8/css/all.css'
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'styles/animation-spin.css'
+      },
+      { rel: 'stylesheet', type: 'text/css', href: 'styles/style.css' }
+    ],
     script: [
       {
         src: '/scripts/jquery-1.12.4.min.js',
