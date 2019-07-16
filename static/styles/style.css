@@ -246,8 +246,6 @@ menue style
   background: #fff;
   transition: 0.3s all;
   z-index: 999;
-  padding-top: 18px;
-  padding-bottom: 18px;
 }
 
 .navbar .nav-item a:hover{
@@ -355,7 +353,7 @@ Start Banner style
 .hero_banner{
   width: 100%;
   position: relative;
-  padding-top: 270px;
+  padding-top: 200px;
   padding-bottom: 262px;
   background-image: url(../img/banner-bg.png);
   background-size: cover;
@@ -2494,8 +2492,7 @@ Start Responsive style
     top: 0;
   }
   .hero_banner {
-    padding-top: 230px;
-    padding-bottom: 140px;
+    padding-top: 150px;
   }
 
   .hero_inside_text h4{
@@ -2714,7 +2711,6 @@ Start Responsive style
   }
   .hero_banner {
     padding-top: 230px;
-    padding-bottom: 140px;
   }
 
   .hero_inside_text h4{
@@ -2956,7 +2952,6 @@ Start Home 2 style
 }
 
 .home2.hero_banner{
-  padding-bottom: 140px;
 }
 
 
@@ -4008,7 +4003,7 @@ box-shadow: 0px 15px 20px 0px rgba(48,67,239,0.15);
 
   }
   .home2.hero_banner{
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 993px) {
