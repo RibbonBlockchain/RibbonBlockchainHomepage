@@ -1,0 +1,33 @@
+<template>
+  <div>
+    <HeroSection />
+    <AboutSection />
+    <ServiceSection />
+    <UserFlowSection />
+    <BusinessMeasureSection />
+    <TimelineSection />
+    <TeamSection />
+  </div>
+</template>
+
+<script>
+import HeroSection from "~/sections/Home/Hero/index.vue";
+import AboutSection from "~/sections/Home/About/index.vue";
+import ServiceSection from "~/sections/Home/Service/index.vue";
+import UserFlowSection from "~/sections/Home/UserFlow/index.vue";
+import BusinessMeasureSection from "~/sections/Home/BusinessMeasure/index.vue";
+import TimelineSection from "~/sections/Home/Timeline/index.vue";
+import TeamSection from "~/sections/Home/Team/index.vue";
+
+export default {
+  components: {
+    HeroSection,
+    AboutSection,
+    ServiceSection,
+    UserFlowSection,
+    BusinessMeasureSection,
+    TimelineSection,
+    TeamSection
+  }
+};
+</script>
