@@ -20,7 +20,6 @@
 
             </p>-->
             <div class="hero-btn">
-              <a href="#" class="btn">Create Account</a>
               <button
                 class="btn-play video-btn"
                 data-toggle="modal"

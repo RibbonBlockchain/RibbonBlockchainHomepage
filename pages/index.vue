@@ -11,20 +11,16 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav/Index.vue";
-import Footer from "~/components/Footer/Index.vue";
-
-import HeroSection from "~/sections/Hero/index.vue";
-import AboutSection from "~/sections/About/index.vue";
-import ServiceSection from "~/sections/Service/index.vue";
-import UserFlowSection from "~/sections/UserFlow/index.vue";
-import BusinessMeasureSection from "~/sections/BusinessMeasure/index.vue";
-import TimelineSection from "~/sections/Timeline/index.vue";
-import TeamSection from "~/sections/Team/index.vue";
+import HeroSection from "~/sections/Home/Hero/index.vue";
+import AboutSection from "~/sections/Home/About/index.vue";
+import ServiceSection from "~/sections/Home/Service/index.vue";
+import UserFlowSection from "~/sections/Home/UserFlow/index.vue";
+import BusinessMeasureSection from "~/sections/Home/BusinessMeasure/index.vue";
+import TimelineSection from "~/sections/Home/Timeline/index.vue";
+import TeamSection from "~/sections/Home/Team/index.vue";
 
 export default {
   components: {
-    Nav,
     HeroSection,
     AboutSection,
     ServiceSection,

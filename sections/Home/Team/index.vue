@@ -1,5 +1,5 @@
 <template>
-  <section class="meet_our_team">
+  <section class="meet_our_team" id="team">
     <div class="container">
       <div class="row">
         <div class="col-md-10 offset-md-1">

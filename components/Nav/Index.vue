@@ -22,37 +22,27 @@
       <div class="collapse navbar-collapse" id="xeronav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <div class="nav-link">
+              <nuxt-link to="/">Home</nuxt-link>
+            </div>
           </li>
 
           <li class="nav-item drop_menu">
-            <a class="nav-link" href="#">
-              Services
-              <i class="fas fa-caret-down"></i>
-            </a>
+            <div class="nav-link">
+              <nuxt-link to="#">
+                About Us
+                <i class="fas fa-caret-down"></i>
+              </nuxt-link>
+            </div>
             <ul>
               <li>
-                <a href="#">Services</a>
+                <nuxt-link to="#team">Our Team</nuxt-link>
               </li>
               <li>
-                <a href="service-#">Service Details</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item drop_menu">
-            <a class="nav-link" href="#">
-              About Us
-              <i class="fas fa-caret-down"></i>
-            </a>
-            <ul>
-              <li>
-                <a href="#">Our Team</a>
+                <nuxt-link to="#market">Key Markets</nuxt-link>
               </li>
               <li>
-                <a href="case-#">Key Markets</a>
-              </li>
-              <li>
-                <a href="services.htm">Our Services</a>
+                <nuxt-link to="#services">Our Services</nuxt-link>
               </li>
             </ul>
           </li>
@@ -77,10 +67,6 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Media</a>
-          </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
