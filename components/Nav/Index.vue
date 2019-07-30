@@ -36,13 +36,13 @@
             </div>
             <ul>
               <li>
-                <nuxt-link to="#team">Our Team</nuxt-link>
+                <a href="#services">Our Services</a>
               </li>
               <li>
-                <nuxt-link to="#market">Key Markets</nuxt-link>
+                <a href="#market">Key Markets</a>
               </li>
-              <li>
-                <nuxt-link to="#services">Our Services</nuxt-link>
+              <li >
+                <a href="#team">Our Team</a>
               </li>
             </ul>
           </li>

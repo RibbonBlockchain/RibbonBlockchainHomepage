@@ -1,5 +1,5 @@
 <template>
-  <section class="measure_business_sec">
+  <section class="measure_business_sec" id="services">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-8 offset-md-2">
