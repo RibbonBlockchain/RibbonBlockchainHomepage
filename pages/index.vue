@@ -7,6 +7,7 @@
     <BusinessMeasureSection />
     <TimelineSection />
     <TeamSection />
+    <AdvisorySection />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import UserFlowSection from "~/sections/Home/UserFlow/index.vue";
 import BusinessMeasureSection from "~/sections/Home/BusinessMeasure/index.vue";
 import TimelineSection from "~/sections/Home/Timeline/index.vue";
 import TeamSection from "~/sections/Home/Team/index.vue";
+import AdvisorySection from "~/sections/Home/Advisory/index.vue";
 
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     UserFlowSection,
     BusinessMeasureSection,
     TimelineSection,
-    TeamSection
+    TeamSection,
+    AdvisorySection
   }
 };
 </script>
