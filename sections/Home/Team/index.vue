@@ -177,7 +177,6 @@
         </div>
       </div>
     </div>
-    <!--/.container-->
     <div class="meet_elem">
       <img src="img/shape/img1.png" alt class="shape-one" />
       <img src="img/shape/img2.png" alt class="shape-two" />
@@ -188,5 +187,10 @@
   </section>
 </template>
 <script>
-export default {};
+import TeamList from "~/components/Team/TeamList.vue";
+export default {
+  components: {
+    TeamList
+  }
+};
 </script>
