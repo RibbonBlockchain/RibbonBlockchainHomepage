@@ -1,6 +1,8 @@
 # RibbonBlockchainHomepage
 
-> Automating public health through tokenized incentives
+> Automating public health through tokenized incentives homepage.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/947511c0-a430-45fd-a57f-f39101451a06/deploy-status)](https://app.netlify.com/sites/ribbon-homepage/deploys)
 
 ## Build Setup
 
