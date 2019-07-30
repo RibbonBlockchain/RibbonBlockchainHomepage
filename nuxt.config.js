@@ -56,7 +56,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "Ribbon Blockchain",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -64,7 +64,13 @@ export default {
         hid: "description",
         name: "description",
         content: process.env.npm_package_description || ""
-      }
+      },
+      { name: "msapplication-TileColor", content: "#ffffff" },
+      {
+        name: "msapplication-TileImage",
+        content: "/favicon/ms-icon-144x144.png"
+      },
+      { name: "theme-color", content: "#ffffff" }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
@@ -111,6 +117,30 @@ export default {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,900"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "57x57",
+        href: "/favicon/apple-icon-57x57.png"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "60x60",
+        href: "/favicon/apple-icon-60x60.png"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "72x72",
+        href: "/favicon/apple-icon-72x72.png"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "144x144",
+        href: "/favicon/apple-icon-144x144.png"
+      },
+      {
+        rel: "manifest",
+        href: "/favicon/manifest.json"
       }
     ],
     script: [
