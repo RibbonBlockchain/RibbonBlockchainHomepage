@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="footer_x_widger">
+    <section class="footer_x_widger" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
