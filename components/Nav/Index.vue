@@ -54,16 +54,16 @@
             </a>
             <ul>
               <li>
-                <a href="#">Crowdfunding</a>
+                <a href="#crowdfunding">Crowdfunding</a>
               </li>
               <li>
-                <a href="#">Incentives</a>
+                <a href="#incentives">Incentives</a>
               </li>
               <li>
-                <a href="#">Analytics</a>
+                <a href="#analytics">Analytics</a>
               </li>
               <li>
-                <a href="#">Technology</a>
+                <a href="#technology">Technology</a>
               </li>
             </ul>
           </li>
