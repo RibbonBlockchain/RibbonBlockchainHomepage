@@ -1,5 +1,7 @@
 $(function($) {
 
+  $('body').bootstrapMaterialDesign();
+
   "use strict";
 
 
