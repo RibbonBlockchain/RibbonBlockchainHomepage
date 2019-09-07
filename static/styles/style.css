@@ -2443,7 +2443,7 @@ Start Footer widget style
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 
 .footer_x_widger:after {
@@ -2463,7 +2463,7 @@ Start Footer widget style
 .footer_x_widger:before {
   content: '';
   width: 354px;
-  height: 314px;
+  /* height: 314px; */
   position: absolute;
   left: 0;
   bottom: 0;

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="footer_x_widger" id="contact">
+    <section class="footer_x_widger" id="contact" style="height:auto">
       <div class="container">
         <div class="row">
           <!-- <div class="col-md-10 offset-md-1">
@@ -45,16 +45,26 @@
               <ul>
                 <li>
                   <a
-                    href="https://medium.com/@RibbonPlatform"
+                    href="https://medium.com/@ribbonplatform"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fas fa-angle-double-right"></i> Blog
+                    <i class="fas fa-angle-double-right"></i> Medium
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fas fa-angle-double-right"></i> Company
+                  <a href="https://twitter.com/RibbonPlatform">
+                    <i class="fas fa-angle-double-right"></i> Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/ribbonblockchain">
+                    <i class="fas fa-angle-double-right"></i> Github
+                  </a>
+                </li>
+                <li>
+                  <a href="https://gitcoin.co/grants/118/public-health-incentives-layer-app">
+                    <i class="fas fa-angle-double-right"></i> Gitcoin
                   </a>
                 </li>
               </ul>
@@ -63,7 +73,7 @@
         </div>
       </div>
     </section>
-    <footer class="footers">
+    <footer class="footers pt-3 pb-0">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -78,35 +88,17 @@
                   <a href="#">
                     <i class="fab fa-facebook-f"></i>
                   </a>
-                </li> -->
-                <li>
-                  <a
-                    href="https://twitter.com/RibbonPlatform"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/RibbonBlockchain"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github"></i>
-                  </a>
-                </li>
+                </li>-->
                 <!-- <li>
                   <a href="#">
                     <i class="fab fa-youtube"></i>
                   </a>
-                </li> -->
+                </li>-->
                 <!-- <li>
                   <a href="#">
                     <i class="fab fa-instagram"></i>
                   </a>
-                </li> -->
+                </li>-->
               </ul>
             </div>
           </div>
