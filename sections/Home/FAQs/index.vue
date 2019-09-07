@@ -6,41 +6,51 @@
         <p>Some common FAQs spanning incentives, tokens and ecosystem questions.</p>
       </div>
 
-      <ul class="nav nav-pills" id="pills-tab" role="tablist">
-        <li class="nav-item">
-          <a
-            class="nav-link active show"
-            id="pills-incentives-tab"
-            data-toggle="pill"
-            href="#pills-incentives"
-            role="tab"
-            aria-controls="pills-incentives"
-            aria-selected="true"
-          >Incentives</a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            id="pills-payouts-tab"
-            data-toggle="pill"
-            href="#pills-payouts"
-            role="tab"
-            aria-controls="pills-payouts"
-            aria-selected="false"
-          >Payouts</a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            id="pills-other-tab"
-            data-toggle="pill"
-            href="#pills-other"
-            role="tab"
-            aria-controls="pills-other"
-            aria-selected="false"
-          >Other</a>
-        </li>
-      </ul>
+      <div class="d-flex">
+        <div class="list-inline mx-auto justify-content-center">
+          <ul
+            class="nav nav-pills"
+            id="pills-tab"
+            role="tablist"
+            style="  text-align: center;  margin: auto;"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active show"
+                id="pills-incentives-tab"
+                data-toggle="pill"
+                href="#pills-incentives"
+                role="tab"
+                aria-controls="pills-incentives"
+                aria-selected="true"
+              >Incentives</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="pills-payouts-tab"
+                data-toggle="pill"
+                href="#pills-payouts"
+                role="tab"
+                aria-controls="pills-payouts"
+                aria-selected="false"
+              >Payouts</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="pills-other-tab"
+                data-toggle="pill"
+                href="#pills-other"
+                role="tab"
+                aria-controls="pills-other"
+                aria-selected="false"
+              >Other</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <div class="tab-content" id="pills-tabContent">
         <div
           class="tab-pane fade show active"
@@ -124,7 +134,9 @@
                 <li class="payoutListItem">Glaucoma screening - 1 DAI</li>
                 <li class="payoutListItem">Flu vaccination - 1 DAI</li>
                 <li class="payoutListItem">Blood donation - 5 DAI</li>
-                <li class="payoutListItem">Adherence scoring - 5 DAI / milestone (excluding health check earnings)</li>
+                <li
+                  class="payoutListItem"
+                >Adherence scoring - 5 DAI / milestone (excluding health check earnings)</li>
               </ul>
             </div>
           </div>
@@ -147,12 +159,16 @@
                 <li class="payoutListItem">Pap smear - 0.2 to 0.3 DAI</li>
                 <li class="payoutListItem">Mammogram - 0.2 to 0.3 DAI</li>
                 <li class="payoutListItem">Prostate inspection - 0.2 to 0.3 DAI</li>
-                <li class="payoutListItem">HIV test - 0.45 DAI for prick test & 0.75 DAI for blood draw</li>
+                <li
+                  class="payoutListItem"
+                >HIV test - 0.45 DAI for prick test & 0.75 DAI for blood draw</li>
                 <li class="payoutListItem">Colonoscopy - 0.2 to 0.3 DAI</li>
                 <li class="payoutListItem">Glaucoma screening - 0.1 to 0.15 DAI</li>
                 <li class="payoutListItem">Flu vaccination - 0.1 to 0.15 DAI</li>
                 <li class="payoutListItem">Blood Donation - 0.5 to 0.75 DAI</li>
-                <li class="payoutListItem">Adherence scoring - 0.5 to 0.75 DAI / milestone (excluding health check earnings)</li>
+                <li
+                  class="payoutListItem"
+                >Adherence scoring - 0.5 to 0.75 DAI / milestone (excluding health check earnings)</li>
               </ul>
             </div>
           </div>
@@ -175,13 +191,17 @@
                 <li class="payoutListItem">Pap smear - 0.3 DAI</li>
                 <li class="payoutListItem">Mammogram - 0.3 DAI</li>
                 <li class="payoutListItem">Prostate inspection - 0.3 DAI</li>
-                <li class="payoutListItem">HIV test - 0.45 DAI for prick test & 0.75 DAI for blood draw</li>
+                <li
+                  class="payoutListItem"
+                >HIV test - 0.45 DAI for prick test & 0.75 DAI for blood draw</li>
                 <li class="payoutListItem">Colonoscopy - 0.3 DAI</li>
                 <li class="payoutListItem">Glaucoma screening - 0.1 DAI</li>
                 <li class="payoutListItem">Flu vaccination - 0.15 DAI</li>
                 <li class="payoutListItem">Flu vaccination - 0.15 DAI</li>
                 <li class="payoutListItem">Blood Donation - 0.75 DAI</li>
-                <li class="payoutListItem">Adherence scoring - 0.75 DAI / milestone (excluding health check earnings)</li>
+                <li
+                  class="payoutListItem"
+                >Adherence scoring - 0.75 DAI / milestone (excluding health check earnings)</li>
               </ul>
             </div>
           </div>
@@ -303,7 +323,7 @@ export default {};
   color: white;
 }
 .payoutListItem {
-  margin-left:20px;
+  margin-left: 20px;
   list-style-type: disc;
 }
 </style>

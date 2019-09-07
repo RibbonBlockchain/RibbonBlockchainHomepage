@@ -1,5 +1,5 @@
 <template>
-  <section class="service_provide_sec" id="advisory">
+  <section class="service_provide_sec alternativeBackground" id="advisory">
     <div class="container">
       <div class="row">
         <div class="col-md-10 offset-md-1">
@@ -111,13 +111,13 @@
       </div>
     </div>
     <!--/.container-->
-    <div class="meet_elem">
+    <!-- <div class="meet_elem">
       <img src="img/shape/img1.png" alt class="shape-one" />
       <img src="img/shape/img2.png" alt class="shape-two" />
       <img src="img/shape/img3.png" alt class="shape-three" />
       <img src="img/shape/img4.png" alt class="shape-four" />
       <img src="img/shape/img5.png" alt class="shape-five" />
-    </div>
+    </div> -->
   </section>
 </template>
 <script>

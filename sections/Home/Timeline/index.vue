@@ -1,5 +1,5 @@
 <template>
-  <section class="service_provide_sec">
+  <section class="service_provide_sec alternativeBackground">
     <div class="container">
       <div class="row">
         <div class="col-md-10 offset-md-1">

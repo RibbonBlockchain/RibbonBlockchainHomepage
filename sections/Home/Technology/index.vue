@@ -1,5 +1,5 @@
 <template>
-  <section class="service_provide_sec">
+  <section class="service_provide_sec mt-md-5">
     <div class="container">
       <div class="row">
         <div class="col-md-5">
@@ -74,12 +74,12 @@
       </div>
     </div>
     <!--/.container-->
-    <img src="img/shape/img1.png" alt class="shape-one" />
+    <!-- <img src="img/shape/img1.png" alt class="shape-one" />
     <img src="img/shape/img2.png" alt class="shape-two" />
     <img src="img/shape/img3.png" alt class="shape-three" />
     <img src="img/shape/img4.png" alt class="shape-four" />
     <img src="img/shape/img5.png" alt class="shape-five" />
-    <img src="img/shape/img6.png" alt class="shape-six" />
+    <img src="img/shape/img6.png" alt class="shape-six" /> -->
   </section>
 </template>
 <script>

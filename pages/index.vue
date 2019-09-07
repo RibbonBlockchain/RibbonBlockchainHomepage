@@ -9,7 +9,7 @@
     <TimelineSection />
     <TeamSection />
     <AdvisorySection />
-    <FAQSection/>
+    <FAQSection />
   </div>
 </template>
 
@@ -40,3 +40,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.alternativeBackground {
+  background: #F4F6FA;
+}
+</style>

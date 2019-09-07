@@ -23,8 +23,8 @@
       </div>
     </div>
     <div class="right_bg_about">
-      <img src="img/icon/polygon.png" class="one" alt />
-      <img src="img/about-vector.png" class="two" alt />
+      <!-- <img src="img/icon/polygon.png" class="one" alt /> -->
+      <!-- <img src="img/about-vector.png" class="two" alt /> -->
     </div>
   </section>
 </template>

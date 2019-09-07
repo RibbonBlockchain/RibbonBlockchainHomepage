@@ -134,7 +134,7 @@
               <p class="h6" style="padding-top: 5px">Vice President (VP) of IT</p>
             </div>
           </div>
-        </div> -->
+        </div>-->
         <div class="col-md-3">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/veronica.jpg" alt />
@@ -179,13 +179,13 @@
         </div>
       </div>
     </div>
-    <div class="meet_elem">
+    <!-- <div class="meet_elem">
       <img src="img/shape/img1.png" alt class="shape-one" />
       <img src="img/shape/img2.png" alt class="shape-two" />
       <img src="img/shape/img3.png" alt class="shape-three" />
       <img src="img/shape/img4.png" alt class="shape-four" />
       <img src="img/shape/img5.png" alt class="shape-five" />
-    </div>
+    </div>-->
   </section>
 </template>
 <script>

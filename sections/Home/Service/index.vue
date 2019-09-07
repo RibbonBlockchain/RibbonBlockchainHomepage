@@ -1,6 +1,6 @@
 <template>
-  <section class="service_provide_sec_home2" id="market">
-    <div class="container">
+  <section class="service_provide_sec_home2 alternativeBackground" id="market">
+    <div class="container" >
       <div class="row">
         <div class="col-md-8 offset-md-2">
           <div class="service_title title text-center">
