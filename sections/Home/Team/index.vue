@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="title text-center">
-            <h3>Meet Our Team</h3>
+            <h3>Core Team</h3>
             <p>
               Ribbon has a experienced, interdisciplinary team who is perfectly positioned to realise the
               potential of healthcare incentives.
@@ -91,7 +91,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+      </div>
+      <div class="row">
+        <div class="offset-md-1 col-md-3">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/isaac.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
@@ -117,7 +119,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/mekyle.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
@@ -132,7 +134,7 @@
               <p class="h6" style="padding-top: 5px">Vice President (VP) of IT</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-md-3">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/veronica.jpg" alt />
@@ -155,7 +157,7 @@
             </ul>
             <div class="name">
               <h4>Veronica Coutts</h4>
-              <p class="h6" style="padding-top: 5px">Project Manager & Smart Contract Engineer</p>
+              <p class="h6" style="padding-top: 5px">Project Manager</p>
             </div>
           </div>
         </div>

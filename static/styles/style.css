@@ -6361,7 +6361,7 @@ Close 404 page style
   font-weight: bold;
   padding: 15px 20px;
   border-radius: 50%;
-  background-color: #F00D62;
+  background-color: #F1527C;
   color: #373866;
   max-height: 50px;
   z-index: 2;
@@ -6381,7 +6381,7 @@ Close 404 page style
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #F00D62;
+  border-left: 3px solid #F1527C;
   z-index: 1;
 }
 
@@ -6408,7 +6408,7 @@ Close 404 page style
 }
 
 .timeline hr {
-  border-top: 3px solid #F00D62;
+  border-top: 3px solid #F1527C;
   margin: 0;
   top: 17px;
   position: relative;
@@ -6420,7 +6420,7 @@ Close 404 page style
 }
 
 .timeline .corner {
-  border: 3px solid #F00D62;
+  border: 3px solid #F1527C;
   width: 100%;
   position: relative;
   border-radius: 15px;

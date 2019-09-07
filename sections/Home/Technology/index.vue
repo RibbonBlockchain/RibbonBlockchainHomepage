@@ -15,7 +15,7 @@
                 <a
                   href="https://github.com/RibbonBlockchain"
                   target="_blank"
-                  style="margin-top:15px"
+                  style="margin-top:15px; background:#F1527C; border-color: #F1527C"
                   class="btn"
                 >
                   <i class="fab fa-github"></i> Github

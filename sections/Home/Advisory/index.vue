@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="title text-center">
-            <h3>Meet the Advisory Team</h3>
+            <h3>Advisory Team</h3>
             <p>
               Ribbon has an experienced advisory team which is perfectly positioned to realise the
               potential of healthcare incentives.
@@ -24,7 +24,7 @@
             </ul>
             <div class="name">
               <h4>Mathias Forbord</h4>
-              <p class="h6" style="padding-top: 5px">Back End and Serverless Architecture</p>
+              <p class="h6" style="padding-top: 5px">Back End Architecture</p>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@
             </ul>
             <div class="name">
               <h4>Joshua Cassidy</h4>
-              <p class="h6" style="padding-top: 5px">Blockchain Application Development</p>
+              <p class="h6" style="padding-top: 5px">Blockchain Development</p>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
             </ul>
             <div class="name">
               <h4>Simon Emanuel Schmid</h4>
-              <p class="h6" style="padding-top: 5px">User Experience Engineering</p>
+              <p class="h6" style="padding-top: 5px">User Experience</p>
             </div>
           </div>
         </div>

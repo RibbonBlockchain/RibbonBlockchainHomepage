@@ -2,14 +2,13 @@
   <section class="service_provide_sec">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-10 offset-md-1">
           <div class="title text-center">
             <h3>Roadmap</h3>
             <p>Ribbon is currently building out a proof of concept Dapp.</p>
           </div>
         </div>
-        <div class="w-100"></div>
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-10 offset-md-1">
           <div class="row how-it-works">
             <div class="col-2 text-left bottom">
               <div class="circle">1</div>
@@ -30,8 +29,11 @@
               <div class="corner left-bottom"></div>
             </div>
           </div>
-          <div class="row align-items-center justify-content-end how-it-works">
-            <div class="col-5" style="padding-right:0px;">
+          <div
+            class="row align-items-center justify-content-end how-it-works"
+            style="margin-left:50px;padding-right:6px"
+          >
+            <div class="col-5" style="padding:0px">
               <p class="h2">2018</p>
               <p class="h5">Q1</p>
               <p>Ribbon Blockchain incorporated as a privately limited for profit company with a public health blockchain use case.</p>
@@ -43,7 +45,7 @@
               </p>
             </div>
 
-            <div class="col-5" style="padding-right:0px;">
+            <div class="col-5" style="padding:0px">
               <p class="h4"></p>
               <p class="h5">Q2</p>
               <p>Development of Incentives demo app and website, and health public sector stakeholder engagements.</p>
@@ -70,12 +72,12 @@
               <div class="corner top-left"></div>
             </div>
           </div>
-          <div class="row how-it-works" style="padding-left:3px">
+          <div class="row how-it-works" s style="margin-right:50px;padding-left:9px">
             <div class="col-2 text-center full p-lg-2">
               <div class="circle">3</div>
             </div>
 
-            <div class="col-5">
+            <div class="col-5" style="padding:0px">
               <p class="h2">2019</p>
               <p class="h5">Q1</p>
               <p>Initial incentives POC.</p>
@@ -89,7 +91,7 @@
               </p>
             </div>
 
-            <div class="col-5">
+            <div class="col-5" style="padding:0px">
               <p class="h4"></p>
               <p class="h5">Q2</p>
               <p>
@@ -116,12 +118,17 @@
               <div class="corner left-bottom"></div>
             </div>
           </div>
-          <div class="row align-items-center justify-content-end how-it-works" style="padding-right:3px">
-            <div class="col-5">
+          <div
+            class="row align-items-center justify-content-end how-it-works"
+            style="margin-left:50px;padding-right:9px"
+          >
+            <div class="col-5" style="padding:0px">
               <p class="h2">2020</p>
               <p class="h5">Q1</p>
-              <p>USSD token wallets.
-                DAO program managers</p>
+              <p>
+                USSD token wallets.
+                DAO program managers
+              </p>
 
               <p class="h5">Q3</p>
               <p>
@@ -130,12 +137,10 @@
               </p>
             </div>
 
-            <div class="col-5">
+            <div class="col-5" style="padding:0px">
               <p class="h4"></p>
               <p class="h5">Q2</p>
-              <p>
-                Extra system functionality, Patient Queuing, push notifications More advanced token modeling.
-              </p>
+              <p>Extra system functionality, Patient Queuing, push notifications More advanced token modeling.</p>
 
               <p class="h5">Q4</p>
               <p>
