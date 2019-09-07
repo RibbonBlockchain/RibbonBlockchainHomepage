@@ -17,7 +17,7 @@
               <br />Our Incentives are distributed in DAI which is a US Dollar stable coin to allow for a more
               stable source of income in countries with volatile currencies such as Zimbabwe or Venezuela.
             </p>
-            <a href="#" class="btn">Read More</a>
+            <!-- <a href="#" class="btn">Read More</a> -->
           </div>
         </div>
       </div>
