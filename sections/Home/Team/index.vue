@@ -61,23 +61,33 @@
             </ul>
             <div class="name">
               <h4>Mpadi Makgalo</h4>
-              <p class="h6" style="padding-top: 5px">Co Founder and CTO</p>
+              <p class="h6" style="padding-top: 5px">Co Founder and COO</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
-            <img src="https://via.placeholder.com/250x250" alt="Ribbon Blockchain" />
+            <img src="/img/team/AllanKatongole.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
-                <a href="https://www.linkedin.com/in/dunmore-farikai-sana-891943a8/">
+                <a href="https://www.linkedin.com/in/katongole-allan-767670118/">
                   <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/KapsonLabs">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/kapson">
+                  <i class="fab fa-gitlab"></i>
                 </a>
               </li>
             </ul>
             <div class="name">
-              <h4>Dunmore Sana</h4>
-              <p class="h6" style="padding-top: 5px">Research Analyst</p>
+              <h4>Allan Katongole</h4>
+              <p class="h6" style="padding-top: 5px">Software Engineer</p>
             </div>
           </div>
         </div>
@@ -96,7 +106,7 @@
                 </a>
               </li>
               <li>
-                <a href=" https://www.linkedin.com/in/iamonuwa/">
+                <a href="https://www.linkedin.com/in/iamonuwa/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -167,7 +177,6 @@
         </div>
       </div>
     </div>
-    <!--/.container-->
     <div class="meet_elem">
       <img src="img/shape/img1.png" alt class="shape-one" />
       <img src="img/shape/img2.png" alt class="shape-two" />
@@ -178,5 +187,10 @@
   </section>
 </template>
 <script>
-export default {};
+import TeamList from "~/components/Team/TeamList.vue";
+export default {
+  components: {
+    TeamList
+  }
+};
 </script>

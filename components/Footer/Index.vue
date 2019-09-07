@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="footer_x_widger">
+    <section class="footer_x_widger" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
@@ -25,18 +25,6 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="widget widget_links" data-aos="fade-up" data-aos-duration="1000">
-              <h3>Useful Links</h3>
-              <ul>
-                <li>
-                  <a href="#">
-                    <i class="fas fa-angle-double-right"></i> About Company
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div class="col-md-3">
             <div class="widget widget_address" data-aos="fade-up" data-aos-duration="1000">
               <h3>Address</h3>
@@ -45,6 +33,27 @@
                 <h4>Contact Info</h4>
                 <p>info@ribbonblockchain.co.za</p>
               </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="widget widget_links" data-aos="fade-up" data-aos-duration="1000">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://medium.com/@RibbonPlatform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fas fa-angle-double-right"></i> Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-angle-double-right"></i> Company
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -67,7 +76,11 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/RibbonPlatform" target="_blank" ref="noopener">
+                  <a
+                    href="https://twitter.com/RibbonPlatform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>

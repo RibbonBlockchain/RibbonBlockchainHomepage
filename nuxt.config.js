@@ -56,7 +56,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "Ribbon Blockchain",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -64,7 +64,13 @@ export default {
         hid: "description",
         name: "description",
         content: process.env.npm_package_description || ""
-      }
+      },
+      { name: "msapplication-TileColor", content: "#ffffff" },
+      {
+        name: "msapplication-TileImage",
+        content: "/favicon/ms-icon-144x144.png"
+      },
+      { name: "theme-color", content: "#ffffff" }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
@@ -95,7 +101,7 @@ export default {
       {
         rel: "stylesheet",
         type: "text/css",
-        href: "https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        href: "https://use.fontawesome.com/releases/v5.10.1/css/all.css"
       },
       {
         rel: "stylesheet",
@@ -105,12 +111,42 @@ export default {
       { rel: "stylesheet", type: "text/css", href: "styles/style.css" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700"
+        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
       },
       {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,900"
+      },
+      {
+        rel: "stylesheet",
+        href:
+        "https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css", integrity:"sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX", 
+        crossorigin:"anonymous"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "57x57",
+        href: "/favicon/apple-icon-57x57.png"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "60x60",
+        href: "/favicon/apple-icon-60x60.png"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "72x72",
+        href: "/favicon/apple-icon-72x72.png"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "144x144",
+        href: "/favicon/apple-icon-144x144.png"
+      },
+      {
+        rel: "manifest",
+        href: "/favicon/manifest.json"
       }
     ],
     script: [
@@ -165,6 +201,16 @@ export default {
       {
         src: "/scripts/main.js",
         type: "text/javascript"
+      },
+      {
+        src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js",
+        type: "text/javascript",
+        integrity: "sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9", 
+        crossorigin: "anonymous"
       }
     ]
   },

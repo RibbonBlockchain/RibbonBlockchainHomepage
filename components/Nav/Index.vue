@@ -36,13 +36,13 @@
             </div>
             <ul>
               <li>
-                <nuxt-link to="#team">Our Team</nuxt-link>
+                <a href="#services">Our Services</a>
               </li>
               <li>
-                <nuxt-link to="#market">Key Markets</nuxt-link>
+                <a href="#market">Key Markets</a>
               </li>
-              <li>
-                <nuxt-link to="#services">Our Services</nuxt-link>
+              <li >
+                <a href="#team">Our Team</a>
               </li>
             </ul>
           </li>
@@ -54,21 +54,21 @@
             </a>
             <ul>
               <li>
-                <a href="#">Crowdfunding</a>
+                <a href="#crowdfunding">Crowdfunding</a>
               </li>
               <li>
-                <a href="#">Incentives</a>
+                <a href="#incentives">Incentives</a>
               </li>
               <li>
-                <a href="#">Analytics</a>
+                <a href="#analytics">Analytics</a>
               </li>
               <li>
-                <a href="#">Technology</a>
+                <a href="#technology">Technology</a>
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
