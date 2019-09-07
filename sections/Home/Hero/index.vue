@@ -19,7 +19,7 @@
                             overall population health outcomes.
 
             </p>-->
-            <div class="hero-btn">
+            <!-- <div class="hero-btn">
               <button
                 class="btn-play video-btn"
                 data-toggle="modal"
@@ -47,7 +47,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-md-5">

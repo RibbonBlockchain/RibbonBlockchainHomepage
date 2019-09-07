@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-transparent fixed-top center-brand static-nav">
     <div class="container">
-      <div class="navbar-translate">
+      <div class="navbar-translate" style="height:60px">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" style="height:50px" alt="logo" class="logo-default" />
         </a>
@@ -19,7 +19,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse" id="xeronav">
+      <div class="collapse navbar-collapse" id="xeronav" style="padding-top:10px">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <div class="nav-link">
@@ -79,3 +79,6 @@
 <script>
 export default {};
 </script>
+
+<style scoped>
+</style>
