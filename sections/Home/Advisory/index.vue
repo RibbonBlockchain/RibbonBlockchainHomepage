@@ -1,5 +1,5 @@
 <template>
-  <section class="meet_our_team" id="advisory">
+  <section class="service_provide_sec" id="advisory">
     <div class="container">
       <div class="row">
         <div class="col-md-10 offset-md-1">
@@ -12,7 +12,7 @@
           </div>
         </div>
         <div class="w-100"></div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="500">
             <img src="/img/team/MatiasForbord.jpeg" alt="Ribbon Blockchain" />
             <ul class="social">
@@ -28,7 +28,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/BenOnuoha.jpeg" alt="Ribbon Blockchain" />
             <ul class="social">
@@ -44,7 +44,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/JoshuaCassidy.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
@@ -60,7 +60,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/SimonEmanuel.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
@@ -76,7 +76,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/DrBrendaKubheka.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
@@ -92,7 +92,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
             <img src="/img/team/Daniel.jpeg" alt="Ribbon Blockchain" />
             <ul class="social">
