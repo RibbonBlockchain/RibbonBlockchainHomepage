@@ -10,7 +10,7 @@
                 <p>
                   The Ribbon ecosystem is built on a number of the latest blockchain technologies and primitives. All logic, value transfer and smart contracts run on the Ethereum blockchain.
                   <br />
-                  <br />Our whole architecture and code base is open source! Developer documentation and a wiki are coming soon. Check out our github below!
+                  <br />Our whole architecture and code base is open source! Developer documentation and a wiki are coming soon. Check out our github below.
                 </p>
                 <a
                   href="https://github.com/RibbonBlockchain"

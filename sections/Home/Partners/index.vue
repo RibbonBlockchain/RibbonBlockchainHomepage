@@ -12,25 +12,25 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3" data-aos="fade-up" data-aos-duration="1000">
           <img class="" src="img/partners/Consensys.png" />
         </div>
-        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3" data-aos="fade-up" data-aos-duration="1000">
           <img class="" src="img/partners/Deloitte.png" alt />
         </div>
-        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3" data-aos="fade-up" data-aos-duration="1000">
           <img class="" src="img/partners/DOH.png" alt />
         </div>
-        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3" data-aos="fade-up" data-aos-duration="1000">
           <img class="" src="img/partners/DST.png" alt />
         </div>
-        <div class="offset-xl-1 col-xl-3 col-md-4 col-sm-6 pl-3 pr-3">
+        <div class="offset-xl-1 col-xl-3 col-md-4 col-sm-6 pl-3 pr-3" data-aos="fade-up" data-aos-duration="1000">
           <img class="" src="img/partners/SARB.png" alt />
         </div>
-        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3" data-aos="fade-up" data-aos-duration="1000">
           <img class="" src="img/partners/HF.png" alt />
         </div>
-        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 pl-3 pr-3" data-aos="fade-up" data-aos-duration="1000">
           <img class="" src="img/partners/ABA.png" alt />
         </div>
       </div>

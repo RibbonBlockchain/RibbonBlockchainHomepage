@@ -1,5 +1,10 @@
 <template>
-  <section class="service_provide_sec">
+  <section
+    class="service_provide_sec alternativeBackground"
+    style="padding-bottom:90px; margin-bottom:0px"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+  >
     <div class="container">
       <div class="title text-center">
         <h3>Frequently Asked Questions</h3>

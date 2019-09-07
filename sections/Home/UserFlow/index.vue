@@ -11,10 +11,10 @@
             </div>
           </div>
           <div class="w-100 my-4" id="crowdfunding"></div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-md-5 offset-md-1" data-aos="fade-right" data-aos-duration="1500">
             <img src="img/graphics/CrowdFunding.png" class="inner" style="max-height:350px" alt />
           </div>
-          <div class="col-md-5 my-auto">
+          <div class="col-md-5 my-auto" style="padding:35px" data-aos="fade-left" data-aos-duration="1500">
             <div class="smaple_text">
               <h3>Crowdfunded Incentives</h3>
               <h5 style="padding-bottom:0px; padding-top: 15px;">
@@ -46,7 +46,7 @@
           <div class="w-100 midle_shape_1 text-center" id="incentives">
             <img src="img/case/single/shape1.png" alt />
           </div>
-          <div class="col-md-5 my-auto">
+          <div class="col-md-5 my-auto" style="padding:35px; padding-left:100px" data-aos="fade-right" data-aos-duration="1500">
             <div class="smaple_text">
               <h3>Patient Incentives</h3>
               <h5
@@ -71,7 +71,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-duration="1500">
             <img
               src="img/graphics/PatientIncentives.png"
               class="inner"
@@ -82,10 +82,10 @@
           <div class="w-100 midle_shape_1 text-center">
             <img src="img/case/single/shape2.png" alt />
           </div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-md-5 offset-md-1"  data-aos="fade-right" data-aos-duration="1500">
             <img src="img/graphics/DoctorIncentives.png" class="inner" style="max-height:350px" alt />
           </div>
-          <div class="col-md-5 my-auto">
+          <div class="col-md-5 my-auto" style="padding:35px"  data-aos="fade-left" data-aos-duration="1500">
             <div class="smaple_text">
               <h3>Practitioner Incentives</h3>
               <h5 style="padding-bottom:0px; padding-top: 15px;">
@@ -111,7 +111,7 @@
           <div class="w-100 midle_shape_1 text-center" id="analytics">
             <img src="img/case/single/shape1.png" alt />
           </div>
-          <div class="col-md-5 my-auto">
+          <div class="col-md-5 my-auto" style="padding:35px; padding-left:100px"  data-aos="fade-right" data-aos-duration="1500">
             <div class="smaple_text">
               <h3>Analytics</h3>
               <h5 style="padding-bottom:0px; padding-top: 15px;">We generate analytics reports on:</h5>
@@ -134,7 +134,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-md-5 offset-md-1"  data-aos="fade-left" data-aos-duration="1500">
             <img src="img/graphics/Analytics.png" class="inner" style="max-height:350px" alt />
           </div>
         </div>
