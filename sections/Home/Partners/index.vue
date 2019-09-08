@@ -1,6 +1,6 @@
 <template>
   <!--team section home2-->
-  <section>
+  <section id="team">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

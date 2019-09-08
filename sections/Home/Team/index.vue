@@ -24,7 +24,7 @@
             </ul>
             <div class="name">
               <h4>Gugulethu Nyathi</h4>
-              <p class="h6" style="padding-top: 5px">Co Founder and CEO</p>
+              <p class="h6" style="padding-top: 5px">Co Founder and COO</p>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@
             </ul>
             <div class="name">
               <h4>Mpadi Makgalo</h4>
-              <p class="h6" style="padding-top: 5px">Co Founder and COO</p>
+              <p class="h6" style="padding-top: 5px">Co Founder and CEO</p>
             </div>
           </div>
         </div>
@@ -189,10 +189,5 @@
   </section>
 </template>
 <script>
-import TeamList from "~/components/Team/TeamList.vue";
-export default {
-  components: {
-    TeamList
-  }
-};
+export default {};
 </script>

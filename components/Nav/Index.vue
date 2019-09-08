@@ -20,48 +20,32 @@
         </button>
       </div>
       <div class="collapse navbar-collapse" id="xeronav" style="padding-top:10px">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="{offset:-200, el:'#about'}">About</a>
-            </div>
+        <ul class="navbar-nav ml-auto" id="mainNav">
+          <li class="nav-item nav-link active">
+            <a href="#about" v-scroll-to="{offset:-200, el:'#about'}">About</a>
           </li>
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="'#ecosystem'">Users</a>
-            </div>
+          <li class="nav-item nav-link">
+            <a href="#ecosystem" v-scroll-to="'#ecosystem'">Users</a>
           </li>
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="'#incentives'">Incentives</a>
-            </div>
+          <li class="nav-item nav-link">
+            <a href="#incentives" v-scroll-to="'#incentives'">Incentives</a>
           </li>
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="'#services'">Services</a>
-            </div>
+          <li class="nav-item nav-link">
+            <a href="#services" v-scroll-to="'#services'">Services</a>
           </li>
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="{offset:-100, el:'#technology'}">Technology</a>
-            </div>
+          <li class="nav-item nav-link">
+            <a href="#technology" v-scroll-to="{offset:-50, el:'#technology'}">Technology</a>
           </li>
 
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="'#roadmap'">Roadmap</a>
-            </div>
+          <li class="nav-item nav-link">
+            <a href="#roadmap" v-scroll-to="'#roadmap'">Roadmap</a>
           </li>
 
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="{offset:-100, el:'#team'}">Team</a>
-            </div>
+          <li class="nav-item nav-link">
+            <a href="#team" v-scroll-to="{offset:-75, el:'#team'}">Team</a>
           </li>
-          <li class="nav-item">
-            <div class="nav-link">
-              <a v-scroll-to="'#faq'">FAQ</a>
-            </div>
+          <li class="nav-item nav-link">
+            <a href="#faq" v-scroll-to="'#faq'">FAQ</a>
           </li>
         </ul>
       </div>
@@ -71,11 +55,35 @@
 
 <script>
 export default {
-  mounted: {
-    
+  mounted() {
+    var sections = $("section"),
+      nav = $("#mainNav"),
+      nav_height = nav.outerHeight();
+    $(window).on("scroll", function() {
+      var cur_pos = $(this).scrollTop();
+
+      sections.each(function() {
+        var top = $(this).offset().top - nav_height,
+          bottom = top + $(this).outerHeight();
+
+        if (cur_pos >= top && cur_pos <= bottom) {
+          nav.find("li").removeClass("active");
+          sections.removeClass("active");
+          // $(this).addClass("active");
+          nav
+            .find('a[href="#' + $(this).attr("id") + '"]')
+            .parent("li")
+            .addClass("active");
+        }
+      });
+    });
   }
 };
 </script>
 
-<style scoped>
+<style>
+li.active a {
+  border-bottom: 3px solid #ed1e78;
+  transition: 0.3s ease-in-out;
+}
 </style>
