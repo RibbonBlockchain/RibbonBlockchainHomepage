@@ -1,5 +1,5 @@
 <template>
-  <section class="about_us_sec" id="about_id">
+  <section class="about_us_sec" id="about" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
       <div class="row">
         <div class="col-md-7 offset-md-5">
@@ -17,14 +17,14 @@
               <br />Our Incentives are distributed in DAI which is a US Dollar stable coin to allow for a more
               stable source of income in countries with volatile currencies such as Zimbabwe or Venezuela.
             </p>
-            <a href="#" class="btn">Read More</a>
+            <!-- <a href="#" class="btn">Read More</a> -->
           </div>
         </div>
       </div>
     </div>
     <div class="right_bg_about">
-      <img src="img/icon/polygon.png" class="one" alt />
-      <img src="img/about-vector.png" class="two" alt />
+      <!-- <img src="img/icon/polygon.png" class="one" alt /> -->
+      <!-- <img src="img/about-vector.png" class="two" alt /> -->
     </div>
   </section>
 </template>

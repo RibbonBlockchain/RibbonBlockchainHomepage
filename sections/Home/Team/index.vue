@@ -1,10 +1,10 @@
 <template>
-  <section class="meet_our_team" id="team">
+  <section class="meet_our_team" id="team" style="padding-bottom:90px">
     <div class="container">
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="title text-center">
-            <h3>Meet Our Team</h3>
+            <h3>Core Team</h3>
             <p>
               Ribbon has a experienced, interdisciplinary team who is perfectly positioned to realise the
               potential of healthcare incentives.
@@ -13,7 +13,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-md-3">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="500">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/gugu.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -24,7 +24,7 @@
             </ul>
             <div class="name">
               <h4>Gugulethu Nyathi</h4>
-              <p class="h6" style="padding-top: 5px">Co Founder and CEO</p>
+              <p class="h6" style="padding-top: 5px">Co Founder and COO</p>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/mpadi.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -61,12 +61,12 @@
             </ul>
             <div class="name">
               <h4>Mpadi Makgalo</h4>
-              <p class="h6" style="padding-top: 5px">Co Founder and COO</p>
+              <p class="h6" style="padding-top: 5px">Co Founder and CEO</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/AllanKatongole.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -91,8 +91,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+      </div>
+      <div class="row">
+        <div class="offset-md-1 col-md-3">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/isaac.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -117,8 +119,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+        <!-- <div class="col-md-3">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/mekyle.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -132,9 +134,9 @@
               <p class="h6" style="padding-top: 5px">Vice President (VP) of IT</p>
             </div>
           </div>
-        </div>
+        </div>-->
         <div class="col-md-3">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/veronica.jpg" alt />
             <ul class="social">
               <li>
@@ -155,12 +157,12 @@
             </ul>
             <div class="name">
               <h4>Veronica Coutts</h4>
-              <p class="h6" style="padding-top: 5px">Project Manager & Smart Contract Engineer</p>
+              <p class="h6" style="padding-top: 5px">Project Manager</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/neo.jpeg" alt />
             <ul class="social">
               <li>
@@ -177,20 +179,15 @@
         </div>
       </div>
     </div>
-    <div class="meet_elem">
+    <!-- <div class="meet_elem">
       <img src="img/shape/img1.png" alt class="shape-one" />
       <img src="img/shape/img2.png" alt class="shape-two" />
       <img src="img/shape/img3.png" alt class="shape-three" />
       <img src="img/shape/img4.png" alt class="shape-four" />
       <img src="img/shape/img5.png" alt class="shape-five" />
-    </div>
+    </div>-->
   </section>
 </template>
 <script>
-import TeamList from "~/components/Team/TeamList.vue";
-export default {
-  components: {
-    TeamList
-  }
-};
+export default {};
 </script>

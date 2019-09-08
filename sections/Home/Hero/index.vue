@@ -1,7 +1,7 @@
 <template>
-  <div class="hero_banner" id="home_id">
+  <div class="hero_banner" id="top">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-md-7">
           <div class="hero_inside_text">
             <h1>Automating public health through tokenized incentives</h1>
@@ -19,7 +19,7 @@
                             overall population health outcomes.
 
             </p>-->
-            <div class="hero-btn">
+            <!-- <div class="hero-btn">
               <button
                 class="btn-play video-btn"
                 data-toggle="modal"
@@ -47,7 +47,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
         <div class="col-md-5">
