@@ -1,7 +1,7 @@
 <template>
   <div class="hero_banner" id="home_id">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-md-7">
           <div class="hero_inside_text">
             <h1>Automating public health through tokenized incentives</h1>
@@ -47,7 +47,7 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>-->
           </div>
         </div>
         <div class="col-md-5">

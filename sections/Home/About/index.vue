@@ -1,5 +1,5 @@
 <template>
-  <section class="about_us_sec" id="about_id">
+  <section class="about_us_sec" id="about_id" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
       <div class="row">
         <div class="col-md-7 offset-md-5">

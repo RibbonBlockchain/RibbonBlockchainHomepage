@@ -1,5 +1,5 @@
 <template>
-  <section class="service_provide_sec alternativeBackground"  style="padding-bottom:90px">
+  <section class="service_provide_sec alternativeBackground" style="padding-bottom:90px">
     <div class="container">
       <div class="row">
         <div class="col-md-10 offset-md-1">
@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="col-md-10 offset-md-1">
-          <div class="row how-it-works">
+          <div class="row how-it-works" data-aos="flip-down" data-aos-duration="1000">
             <div class="col-2 text-left bottom">
               <div class="circle">1</div>
             </div>
@@ -18,7 +18,7 @@
               <p>Concept research and development as a non profit adherence initiative, in collaboration with SA Department of Health, Mylan Pharmaceuticals and a prominent health data analytics firm.</p>
             </div>
           </div>
-          <div class="row timeline">
+          <div class="row timeline" data-aos="flip-down" data-aos-duration="1000">
             <div class="col-2">
               <div class="corner top-right"></div>
             </div>
@@ -32,6 +32,8 @@
           <div
             class="row align-items-center justify-content-end how-it-works"
             style="margin-left:50px;padding-right:6px"
+            data-aos="flip-down"
+            data-aos-duration="1000"
           >
             <div class="col-5" style="padding:0px">
               <p class="h2">2018</p>
@@ -72,7 +74,12 @@
               <div class="corner top-left"></div>
             </div>
           </div>
-          <div class="row how-it-works" s style="margin-right:50px;padding-left:9px">
+          <div
+            class="row how-it-works"
+            style="margin-right:50px;padding-left:9px"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+          >
             <div class="col-2 text-center full p-lg-2">
               <div class="circle">3</div>
             </div>
@@ -121,6 +128,8 @@
           <div
             class="row align-items-center justify-content-end how-it-works"
             style="margin-left:50px;padding-right:9px"
+            data-aos="flip-down"
+            data-aos-duration="1000"
           >
             <div class="col-5" style="padding:0px">
               <p class="h2">2020</p>

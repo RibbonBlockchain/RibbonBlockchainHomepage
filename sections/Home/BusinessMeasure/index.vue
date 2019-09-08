@@ -2,7 +2,7 @@
   <section class="measure_business_sec alternativeBackground" id="services">
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2" data-aos="fade-in" data-aos-duration="1000">
           <div class="title text-center">
             <h3>Core Ecosystem Services</h3>
             <p>Ribbon offers a number of key technologies across the healthcare incentives ecosystem.</p>
@@ -32,7 +32,6 @@
               <br />
               <br />
               <br />
-              
             </p>
           </div>
         </div>
