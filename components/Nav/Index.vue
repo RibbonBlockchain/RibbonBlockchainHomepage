@@ -1,5 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-transparent fixed-top center-brand static-nav">
+  <nav
+    class="navbar navbar-expand-lg navbar-transparent fixed-top center-brand static-nav"
+    style="padding-top:0px"
+  >
     <div class="container">
       <div class="navbar-translate" style="height:60px">
         <a class="navbar-brand" v-scroll-to="'#top'">

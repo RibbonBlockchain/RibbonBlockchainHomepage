@@ -3,7 +3,7 @@
     class="service_provide_sec alternativeBackground"
     style="padding-bottom:90px; margin-bottom:0px"
     data-aos="fade-up"
-    data-aos-duration="1000"
+    data-aos-duration="1500"
     id="faq"
   >
     <div class="container">

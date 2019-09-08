@@ -49,22 +49,22 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fas fa-angle-double-right"></i> Medium
+                    <i class="fab fa-medium"></i> Medium
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/RibbonPlatform">
-                    <i class="fas fa-angle-double-right"></i> Twitter
+                    <i class="fab fa-twitter"></i> Twitter
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/ribbonblockchain">
-                    <i class="fas fa-angle-double-right"></i> Github
+                    <i class="fab fa-github"></i> Github
                   </a>
                 </li>
                 <li>
                   <a href="https://gitcoin.co/grants/118/public-health-incentives-layer-app">
-                    <i class="fas fa-angle-double-right"></i> Gitcoin
+                    <i class="fas fa-coins"></i> Gitcoin
                   </a>
                 </li>
               </ul>
