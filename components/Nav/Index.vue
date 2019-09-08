@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-transparent fixed-top center-brand static-nav">
     <div class="container">
       <div class="navbar-translate" style="height:60px">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" v-scroll-to="'#top'">
           <img src="img/logo.png" style="height:50px" alt="logo" class="logo-default" />
         </a>
 
@@ -23,52 +23,45 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <div class="nav-link">
-              <nuxt-link to="/">Home</nuxt-link>
+              <a v-scroll-to="{offset:-200, el:'#about'}">About</a>
             </div>
-          </li>
-
-          <li class="nav-item drop_menu">
-            <div class="nav-link">
-              <nuxt-link to="#">
-                About Us
-                <i class="fas fa-caret-down"></i>
-              </nuxt-link>
-            </div>
-            <ul>
-              <li>
-                <a href="#services">Our Services</a>
-              </li>
-              <li>
-                <a href="#market">Key Markets</a>
-              </li>
-              <li >
-                <a href="#team">Our Team</a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item drop_menu">
-            <a class="nav-link" href="#">
-              How it works?
-              <i class="fas fa-caret-down"></i>
-            </a>
-            <ul>
-              <li>
-                <a href="#crowdfunding">Crowdfunding</a>
-              </li>
-              <li>
-                <a href="#incentives">Incentives</a>
-              </li>
-              <li>
-                <a href="#analytics">Analytics</a>
-              </li>
-              <li>
-                <a href="#technology">Technology</a>
-              </li>
-            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <div class="nav-link">
+              <a v-scroll-to="'#ecosystem'">Users</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="nav-link">
+              <a v-scroll-to="'#incentives'">Incentives</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="nav-link">
+              <a v-scroll-to="'#services'">Services</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="nav-link">
+              <a v-scroll-to="{offset:-100, el:'#technology'}">Technology</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link">
+              <a v-scroll-to="'#roadmap'">Roadmap</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link">
+              <a v-scroll-to="{offset:-100, el:'#team'}">Team</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="nav-link">
+              <a v-scroll-to="'#faq'">FAQ</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -77,7 +70,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted: {
+    
+  }
+};
 </script>
 
 <style scoped>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="incentives">
     <section class="case_single_details">
       <div class="w-100"></div>
       <div class="container">

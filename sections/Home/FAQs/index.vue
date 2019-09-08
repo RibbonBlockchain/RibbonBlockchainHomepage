@@ -4,6 +4,7 @@
     style="padding-bottom:90px; margin-bottom:0px"
     data-aos="fade-up"
     data-aos-duration="1000"
+    id="faq"
   >
     <div class="container">
       <div class="title text-center">

@@ -1,5 +1,5 @@
 <template>
-  <div class="hero_banner" id="home_id">
+  <div class="hero_banner" id="top">
     <div class="container">
       <div class="row" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-md-7">

@@ -1,5 +1,5 @@
 <template>
-  <section class="service_provide_sec_home2 alternativeBackground" id="market"  data-aos="fade-up" data-aos-duration="1000">
+  <section class="service_provide_sec_home2 alternativeBackground" id="ecosystem"  data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2">

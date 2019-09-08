@@ -1,5 +1,5 @@
 <template>
-  <section class="service_provide_sec mt-md-5">
+  <section class="service_provide_sec mt-md-5" id="technology">
     <div class="container">
       <div class="row">
         <div class="col-md-5">
