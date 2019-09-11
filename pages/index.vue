@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Cookie />
     <HeroSection />
     <AboutSection />
     <ServiceSection />
@@ -27,6 +28,8 @@ import AdvisorySection from "~/sections/Home/Advisory/index.vue";
 import PartnersSection from "~/sections/Home/Partners/index.vue";
 import FAQSection from "~/sections/Home/FAQs/index.vue";
 
+import Cookie from "~/components/Cookie/index.vue";
+
 export default {
   components: {
     HeroSection,
@@ -39,13 +42,14 @@ export default {
     AdvisorySection,
     PartnersSection,
     FAQSection,
-    TechnologySection
+    TechnologySection,
+    Cookie
   }
 };
 </script>
 
 <style>
 .alternativeBackground {
-  background: #F4F6FA;
+  background: #f4f6fa;
 }
 </style>

@@ -83,7 +83,7 @@ export default {
       },
       {
         name: "msapplication-TileImage",
-        content: "/favicon/ms-icon-144x144.png"
+        content: "favicon/ms-icon-144x144.png"
       },
       {
         name: "theme-color",
@@ -93,7 +93,7 @@ export default {
     link: [{
         rel: "icon",
         type: "image/x-icon",
-        href: "/favicon.ico"
+        href: "favicon/favicon.ico"
       },
       {
         rel: "stylesheet",
@@ -167,26 +167,26 @@ export default {
       {
         rel: "apple-touch-icon",
         sizes: "57x57",
-        href: "/favicon/apple-icon-57x57.png"
+        href: "favicon/apple-icon-57x57.png"
       },
       {
         rel: "apple-touch-icon",
         sizes: "60x60",
-        href: "/favicon/apple-icon-60x60.png"
+        href: "favicon/apple-icon-60x60.png"
       },
       {
         rel: "apple-touch-icon",
         sizes: "72x72",
-        href: "/favicon/apple-icon-72x72.png"
+        href: "favicon/apple-icon-72x72.png"
       },
       {
         rel: "apple-touch-icon",
         sizes: "144x144",
-        href: "/favicon/apple-icon-144x144.png"
+        href: "favicon/apple-icon-144x144.png"
       },
       {
         rel: "manifest",
-        href: "/favicon/manifest.json"
+        href: "favicon/manifest.json"
       }
     ],
     script: [{
