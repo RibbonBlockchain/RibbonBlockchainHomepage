@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-8 offset-md-2">
           <div class="service_title title text-center">
-            <h3>Ecosystem Users</h3>
+            <h3>Ecosystem users</h3>
             <p>Ribbon provides value to every player within the public healthcare ecosystem.</p>
           </div>
         </div>

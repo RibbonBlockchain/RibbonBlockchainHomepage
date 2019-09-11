@@ -4,7 +4,7 @@
       <div class="row text-center">
         <div class="col-md-8 offset-md-2" data-aos="fade-in" data-aos-duration="1000">
           <div class="title text-center">
-            <h3>Core Ecosystem Services</h3>
+            <h3>Core ecosystem services</h3>
             <p>Ribbon offers a number of key technologies across the healthcare incentives ecosystem.</p>
           </div>
         </div>

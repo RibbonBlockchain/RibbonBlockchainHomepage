@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="title text-center">
-            <h3>Core Team</h3>
+            <h3>Core team</h3>
             <p>
               Ribbon has a experienced, interdisciplinary team who is perfectly positioned to realise the
               potential of healthcare incentives.

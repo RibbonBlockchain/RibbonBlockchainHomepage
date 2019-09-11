@@ -8,8 +8,8 @@
   >
     <div class="container">
       <div class="title text-center">
-        <h3>Frequently Asked Questions</h3>
-        <p>Some common FAQs spanning incentives, tokens and ecosystem questions.</p>
+        <h3>Frequently asked questions</h3>
+        <p>Some common FAQs spanning incentives, tokens and ecosystem questions. For more information please reach out to us on our email provided below.</p>
       </div>
 
       <div class="d-flex">

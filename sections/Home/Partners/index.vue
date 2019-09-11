@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="title text-center">
-            <h3>Ecosystem Partners</h3>
+            <h3>Ecosystem partners</h3>
             <p>Ribbon has an extensive network of partners and supporting organizations from all around the world.</p>
           </div>
           <!--/.title-->
