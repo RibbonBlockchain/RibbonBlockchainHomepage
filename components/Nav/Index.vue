@@ -22,7 +22,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse" id="xeronav" style="padding-top:10px">
+      <div class="collapse navbar-collapse" id="xeronav">
         <ul class="navbar-nav ml-auto" id="mainNav">
           <li class="nav-item nav-link active">
             <a href="#about" v-scroll-to="{offset:-200, el:'#about'}">About</a>
