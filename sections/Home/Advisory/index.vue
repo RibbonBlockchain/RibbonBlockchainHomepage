@@ -1,10 +1,10 @@
 <template>
-  <section class="service_provide_sec" id="advisory">
+  <section class="service_provide_sec alternativeBackground" id="team"  style="padding-bottom:90px">
     <div class="container">
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="title text-center">
-            <h3>Meet the Advisory Team</h3>
+            <h3>Advisory team</h3>
             <p>
               Ribbon has an experienced advisory team which is perfectly positioned to realise the
               potential of healthcare incentives.
@@ -13,7 +13,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-md-2">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="500">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/MatiasForbord.jpeg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -24,7 +24,7 @@
             </ul>
             <div class="name">
               <h4>Mathias Forbord</h4>
-              <p class="h6" style="padding-top: 5px">Back End and Serverless Architecture</p>
+              <p class="h6" style="padding-top: 5px">Back End Architecture</p>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="col-md-2">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/JoshuaCassidy.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -56,12 +56,12 @@
             </ul>
             <div class="name">
               <h4>Joshua Cassidy</h4>
-              <p class="h6" style="padding-top: 5px">Blockchain Application Development</p>
+              <p class="h6" style="padding-top: 5px">Blockchain Development</p>
             </div>
           </div>
         </div>
         <div class="col-md-2">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/SimonEmanuel.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -72,12 +72,12 @@
             </ul>
             <div class="name">
               <h4>Simon Emanuel Schmid</h4>
-              <p class="h6" style="padding-top: 5px">User Experience Engineering</p>
+              <p class="h6" style="padding-top: 5px">User Experience</p>
             </div>
           </div>
         </div>
         <div class="col-md-2">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/DrBrendaKubheka.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -93,7 +93,7 @@
           </div>
         </div>
         <div class="col-md-2">
-          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="2000">
+          <div class="teams_single_in" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/team/Daniel.jpeg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
@@ -111,13 +111,13 @@
       </div>
     </div>
     <!--/.container-->
-    <div class="meet_elem">
+    <!-- <div class="meet_elem">
       <img src="img/shape/img1.png" alt class="shape-one" />
       <img src="img/shape/img2.png" alt class="shape-two" />
       <img src="img/shape/img3.png" alt class="shape-three" />
       <img src="img/shape/img4.png" alt class="shape-four" />
       <img src="img/shape/img5.png" alt class="shape-five" />
-    </div>
+    </div> -->
   </section>
 </template>
 <script>

@@ -1,14 +1,17 @@
 <template>
   <div>
+    <Cookie />
     <HeroSection />
     <AboutSection />
     <ServiceSection />
     <UserFlowSection />
     <BusinessMeasureSection />
+    <TechnologySection />
     <TimelineSection />
     <TeamSection />
     <AdvisorySection />
-    <FAQSection/>
+    <PartnersSection />
+    <FAQSection />
   </div>
 </template>
 
@@ -18,10 +21,14 @@ import AboutSection from "~/sections/Home/About/index.vue";
 import ServiceSection from "~/sections/Home/Service/index.vue";
 import UserFlowSection from "~/sections/Home/UserFlow/index.vue";
 import BusinessMeasureSection from "~/sections/Home/BusinessMeasure/index.vue";
+import TechnologySection from "~/sections/Home/Technology/index.vue";
 import TimelineSection from "~/sections/Home/Timeline/index.vue";
 import TeamSection from "~/sections/Home/Team/index.vue";
 import AdvisorySection from "~/sections/Home/Advisory/index.vue";
+import PartnersSection from "~/sections/Home/Partners/index.vue";
 import FAQSection from "~/sections/Home/FAQs/index.vue";
+
+import Cookie from "~/components/Cookie/index.vue";
 
 export default {
   components: {
@@ -33,7 +40,16 @@ export default {
     TimelineSection,
     TeamSection,
     AdvisorySection,
-    FAQSection
+    PartnersSection,
+    FAQSection,
+    TechnologySection,
+    Cookie
   }
 };
 </script>
+
+<style>
+.alternativeBackground {
+  background: #f4f6fa;
+}
+</style>
