@@ -6,7 +6,9 @@ var scrollBehavior = function(to, from, savedPosition) {
   // if no children detected and scrollToTop is not explicitly disabled
   if (
     to.matched.length < 2 &&
-    to.matched.every(r => r.components.default.options.scrollToTop !== false)
+    to.matched.every(r => {
+      return r.components.default.options.scrollToTop !== false;
+    })
   ) {
     // scroll to the top of the page
     position = { x: 0, y: 0 };
@@ -111,18 +113,13 @@ export default {
       { rel: "stylesheet", type: "text/css", href: "styles/style.css" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+        href:
+          "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
       },
       {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,900"
-      },
-      {
-        rel: "stylesheet",
-        href:
-        "https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css", integrity:"sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX", 
-        crossorigin:"anonymous"
       },
       {
         rel: "apple-touch-icon",
@@ -201,16 +198,6 @@ export default {
       {
         src: "/scripts/main.js",
         type: "text/javascript"
-      },
-      {
-        src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
-        type: "text/javascript"
-      },
-      {
-        src: "https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js",
-        type: "text/javascript",
-        integrity: "sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9", 
-        crossorigin: "anonymous"
       }
     ]
   },
