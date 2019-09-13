@@ -122,13 +122,13 @@
         </div>
         <div
           class="col-md-5 my-auto"
-          style="padding:35px; padding-left:100px"
+          style="padding:0px; padding-left:100px"
           data-aos="fade-right"
           data-aos-duration="1500"
         >
           <div class="smaple_text">
             <h3>Analytics</h3>
-            <h5 style="padding-bottom:0px; padding-top: 15px;">We generate analytics reports on:</h5>
+            <h5 style="padding-bottom:0px; padding-top: 0px;">We generate analytics reports on:</h5>
             <ul style="padding-top:0px">
               <li>
                 <i class="fas fa-caret-right"></i> Real-time analytics

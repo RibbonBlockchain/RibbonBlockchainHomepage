@@ -6,7 +6,7 @@
           <div class="row h-100">
             <div class="col-md-12 align-self-center">
               <div class="service_title title">
-                <h3>Ribbon is built on the latest web3 technology</h3>
+                <h3 style="line-height: 1.0;">Ribbon is built on the latest web3 technology</h3>
                 <p>
                   The Ribbon ecosystem is built on a number of the latest blockchain technologies and primitives. All logic, value transfer and smart contracts run on the Ethereum blockchain.
                   <br />

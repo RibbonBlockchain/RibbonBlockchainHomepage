@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-7 offset-md-5">
           <div class="about_content">
-            <h3>Revolutionizing healthcare incentives with blockchain</h3>
+            <h3 style="line-height: 1.0">Revolutionizing healthcare incentives with blockchain</h3>
             <p>
               Ribbon Blockchain is a healthcare incentives platform that aims to modify behaviour through
               rewardable tasks. Ribbon channels donated, pledged or sponsored funding to health and
