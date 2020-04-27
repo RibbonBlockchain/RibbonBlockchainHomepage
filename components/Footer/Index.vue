@@ -11,7 +11,11 @@
           </div>-->
           <div class="w-100"></div>
           <div class="col-md-6">
-            <div class="widget widget_info" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="widget widget_info"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img src="img/logo.png" style="height:50px" alt />
               <p>Automating public healthcare through tokenized incentives.</p>
               <!-- <div class="newsletter">
@@ -30,9 +34,16 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="widget widget_address" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="widget widget_address"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <h3>Address</h3>
-              <p>4th floor East Wing 158 Jan Smuts Building 9 Walters street, Rosebank, Gauteng, Republic of South Africa</p>
+              <p>
+                4th floor East Wing 158 Jan Smuts Building 9 Walters street,
+                Rosebank, Gauteng, Republic of South Africa
+              </p>
               <!-- <div class="con_info">
                 <h4>Contact Info</h4>
                 <p>info@ribbonblockchain.co.za</p>
@@ -40,7 +51,11 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="widget widget_links" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="widget widget_links"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <h3>Useful Links</h3>
               <ul>
                 <li>
@@ -63,7 +78,9 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://gitcoin.co/grants/118/public-health-incentives-layer-app">
+                  <a
+                    href="https://gitcoin.co/grants/118/public-health-incentives-layer-app"
+                  >
                     <i class="fas fa-coins"></i> Gitcoin
                   </a>
                 </li>
@@ -78,17 +95,26 @@
         <div class="row">
           <div class="col-md-6">
             <div class="copyright_text">
-              <p>2019 &copy; Ribbon Blockchain, all rights reserved.</p>
+              <p>
+                2019 &copy; Ribbon Blockchain, all rights reserved.
+              </p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="footer_social">
               <ul>
-                <!-- <li>
-                  <a href="#">
+                <li>
+                  <!-- <a href="#">
                     <i class="fab fa-facebook-f"></i>
+                  </a> -->
+
+                  <a href="https://www.netlify.com">
+                    <img
+                      src="https://www.netlify.com/img/global/badges/netlify-light.svg"
+                      alt="Deploys by Netlify"
+                    />
                   </a>
-                </li>-->
+                </li>
                 <!-- <li>
                   <a href="#">
                     <i class="fab fa-youtube"></i>
@@ -98,7 +124,7 @@
                   <a href="#">
                     <i class="fab fa-instagram"></i>
                   </a>
-                </li>-->
+                </li> -->
               </ul>
             </div>
           </div>
