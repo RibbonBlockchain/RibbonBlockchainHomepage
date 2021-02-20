@@ -48,7 +48,7 @@
             </ul>
             <div class="name">
               <h4>Ben Onuoha</h4>
-              <p class="h6" style="padding-top: 5px">Co-Founder and CSO</p>
+              <p class="h6" style="padding-top: 5px">Advisor and CSO</p>
             </div>
           </div>
         </div>
