@@ -38,26 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div
-            class="teams_single_in"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img src="/img/team/BenOnuoha.jpeg" alt="Ribbon Blockchain" />
-            <ul class="social">
-              <li>
-                <a href=" https://www.linkedin.com/in/benonuoha/">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-            <div class="name">
-              <h4>Ben Onuoha</h4>
-              <p class="h6" style="padding-top: 5px">Blockchain Strategy</p>
-            </div>
-          </div>
-        </div>
+
         <div class="col-md-2">
           <div
             class="teams_single_in"
