@@ -25,7 +25,9 @@
             <img src="/img/team/chris.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
-                <a href="https://www.linkedin.com/in/matiasforbord/">
+                <a
+                  href="https://www.linkedin.com/in/christopher-maree-49463312b/"
+                >
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>

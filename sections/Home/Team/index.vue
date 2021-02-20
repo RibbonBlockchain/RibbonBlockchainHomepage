@@ -21,9 +21,7 @@
             <img src="/img/team/mpadi.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
-                <a
-                  href="https://www.linkedin.com/in/gugu-newman-nyathi-11ab17a7/"
-                >
+                <a href="https://www.linkedin.com/in/busisiwe/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -43,12 +41,7 @@
             <img src="/img/team/BenOnuoha.jpeg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
-                <a href="https://github.com/chrismaree">
-                  <i class="fab fa-github"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/christopher-maree-49463312b/">
+                <a href="https://www.linkedin.com/in/benonuoha/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -68,7 +61,9 @@
             <img src="/img/team/gugu.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
-                <a href="https://www.linkedin.com/in/busisiwe/">
+                <a
+                  href="https://www.linkedin.com/in/gugu-newman-nyathi-11ab17a7/"
+                >
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -85,27 +80,16 @@
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              src="/img/team/bamidele.jpg"
-              style="height: 260px"
-              alt="Ribbon Blockchain"
-            />
+            <img src="/img/team/bamidelee.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
-                <a
-                  href="https://www.linkedin.com/in/katongole-allan-767670118/"
-                >
+                <a href="https://www.linkedin.com/in/bamidelealegbe/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/KapsonLabs">
+                <a href="https://github.com/alegbebomby">
                   <i class="fab fa-github"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://gitlab.com/kapson">
-                  <i class="fab fa-gitlab"></i>
                 </a>
               </li>
             </ul>
@@ -126,17 +110,19 @@
             <img src="/img/team/AllanKatongole.jpg" alt="Ribbon Blockchain" />
             <ul class="social">
               <li>
-                <a href="https://github.com/iamonuwa">
+                <a href="https://github.com/KapsonLabs">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="https://gitlab.com/iamonuwa">
+                <a href="https://gitlab.com/kapson">
                   <i class="fab fa-gitlab"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/iamonuwa/">
+                <a
+                  href="https://www.linkedin.com/in/katongole-allan-767670118/"
+                >
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
