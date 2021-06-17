@@ -95,7 +95,7 @@
             </ul>
             <div class="name">
               <h4>Alegbe Bamidele</h4>
-              <p class="h6" style="padding-top: 5px">CTO</p>
+              <p class="h6" style="padding-top: 5px">Tech Advisory</p>
             </div>
           </div>
         </div>
